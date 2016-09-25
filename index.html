@@ -347,6 +347,20 @@
 			overlay.style.display = "none";
 		});
 
+		overlay.addEventListener("click", function(){
+			overlay.style.display = "none";
+		});
+
+		document.addEventListener("keydown", function(e){
+			// ESCAPE key pressed
+		    if (e.keyCode == 27) {
+				overlay.style.display = "none";
+		    }
+
+		});
+
+
+
 	</script>
 </body>
 </html>
